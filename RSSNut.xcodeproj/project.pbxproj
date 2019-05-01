@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54E6D122263BA9100552801 /* ConfigurationWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = A54E6D102263BA9100552801 /* ConfigurationWindow.h */; };
+		A54E6D132263BA9100552801 /* ConfigurationWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A54E6D112263BA9100552801 /* ConfigurationWindow.m */; };
+		A55F3DC7225F963200CF336D /* NS(Attributed)String+Geometrics.h in Headers */ = {isa = PBXBuildFile; fileRef = A55F3DC5225F963200CF336D /* NS(Attributed)String+Geometrics.h */; };
+		A55F3DC8225F963200CF336D /* NS(Attributed)String+Geometrics.m in Sources */ = {isa = PBXBuildFile; fileRef = A55F3DC6225F963200CF336D /* NS(Attributed)String+Geometrics.m */; };
+		A5659B76225BA3C90053AC94 /* RSSNutView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5659B75225BA3C90053AC94 /* RSSNutView.h */; };
+		A5659B78225BA3C90053AC94 /* RSSNutView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5659B77225BA3C90053AC94 /* RSSNutView.m */; };
+		A58847C6225FBDB600870A16 /* TEMP.png in Resources */ = {isa = PBXBuildFile; fileRef = A58847C5225FBDB600870A16 /* TEMP.png */; };
+		A5E3D83C22614681008CCF16 /* ConfigurationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E3D83922614681008CCF16 /* ConfigurationController.h */; };
+		A5E3D83D22614681008CCF16 /* ConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3D83A22614681008CCF16 /* ConfigurationController.m */; };
+		A5E3D83E22614681008CCF16 /* ConfigurationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E3D83B22614681008CCF16 /* ConfigurationController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A54E6D102263BA9100552801 /* ConfigurationWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigurationWindow.h; sourceTree = "<group>"; };
+		A54E6D112263BA9100552801 /* ConfigurationWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigurationWindow.m; sourceTree = "<group>"; };
+		A55F3DC5225F963200CF336D /* NS(Attributed)String+Geometrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NS(Attributed)String+Geometrics.h"; sourceTree = "<group>"; };
+		A55F3DC6225F963200CF336D /* NS(Attributed)String+Geometrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NS(Attributed)String+Geometrics.m"; sourceTree = "<group>"; };
+		A5659B72225BA3C90053AC94 /* RSSNut.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSNut.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5659B75225BA3C90053AC94 /* RSSNutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSNutView.h; sourceTree = "<group>"; };
+		A5659B77225BA3C90053AC94 /* RSSNutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSNutView.m; sourceTree = "<group>"; };
+		A5659B79225BA3C90053AC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58847C5225FBDB600870A16 /* TEMP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TEMP.png; sourceTree = "<group>"; };
+		A5E3D83922614681008CCF16 /* ConfigurationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigurationController.h; sourceTree = "<group>"; };
+		A5E3D83A22614681008CCF16 /* ConfigurationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigurationController.m; sourceTree = "<group>"; };
+		A5E3D83B22614681008CCF16 /* ConfigurationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigurationController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5659B6F225BA3C90053AC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5659B68225BA3C90053AC94 = {
+			isa = PBXGroup;
+			children = (
+				A5659B74225BA3C90053AC94 /* RSSNut */,
+				A5659B73225BA3C90053AC94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5659B73225BA3C90053AC94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5659B72225BA3C90053AC94 /* RSSNut.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5659B74225BA3C90053AC94 /* RSSNut */ = {
+			isa = PBXGroup;
+			children = (
+				A55F3DC5225F963200CF336D /* NS(Attributed)String+Geometrics.h */,
+				A55F3DC6225F963200CF336D /* NS(Attributed)String+Geometrics.m */,
+				A5659B75225BA3C90053AC94 /* RSSNutView.h */,
+				A5659B77225BA3C90053AC94 /* RSSNutView.m */,
+				A58847C5225FBDB600870A16 /* TEMP.png */,
+				A5659B79225BA3C90053AC94 /* Info.plist */,
+				A5E3D83922614681008CCF16 /* ConfigurationController.h */,
+				A5E3D83A22614681008CCF16 /* ConfigurationController.m */,
+				A54E6D102263BA9100552801 /* ConfigurationWindow.h */,
+				A54E6D112263BA9100552801 /* ConfigurationWindow.m */,
+				A5E3D83B22614681008CCF16 /* ConfigurationController.xib */,
+			);
+			path = RSSNut;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5659B6D225BA3C90053AC94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E3D83C22614681008CCF16 /* ConfigurationController.h in Headers */,
+				A5659B76225BA3C90053AC94 /* RSSNutView.h in Headers */,
+				A55F3DC7225F963200CF336D /* NS(Attributed)String+Geometrics.h in Headers */,
+				A54E6D122263BA9100552801 /* ConfigurationWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A5659B71225BA3C90053AC94 /* RSSNut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5659B7C225BA3C90053AC94 /* Build configuration list for PBXNativeTarget "RSSNut" */;
+			buildPhases = (
+				A5659B6D225BA3C90053AC94 /* Headers */,
+				A5659B6E225BA3C90053AC94 /* Sources */,
+				A5659B6F225BA3C90053AC94 /* Frameworks */,
+				A5659B70225BA3C90053AC94 /* Resources */,
+				A5659B81225BAE620053AC94 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSNut;
+			productName = RSSNut;
+			productReference = A5659B72225BA3C90053AC94 /* RSSNut.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5659B69225BA3C90053AC94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = 5amProductions;
+				TargetAttributes = {
+					A5659B71225BA3C90053AC94 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = A5659B6C225BA3C90053AC94 /* Build configuration list for PBXProject "RSSNut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5659B68225BA3C90053AC94;
+			productRefGroup = A5659B73225BA3C90053AC94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5659B71225BA3C90053AC94 /* RSSNut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5659B70225BA3C90053AC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E3D83E22614681008CCF16 /* ConfigurationController.xib in Resources */,
+				A58847C6225FBDB600870A16 /* TEMP.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5659B81225BAE620053AC94 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#killall \"System Preferences\"\n#open /Users/sammy/Library/Developer/Xcode/DerivedData/RSSNut-ajvhjopqpseipbhldslmnhmpdrvb/Build/Products/Debug/RSSNut.saver\n#osascript -e \"delay 0.5\"\n#osascript -e \"tell application \\\"System Events\\\" to keystroke return\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5659B6E225BA3C90053AC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54E6D132263BA9100552801 /* ConfigurationWindow.m in Sources */,
+				A5E3D83D22614681008CCF16 /* ConfigurationController.m in Sources */,
+				A55F3DC8225F963200CF336D /* NS(Attributed)String+Geometrics.m in Sources */,
+				A5659B78225BA3C90053AC94 /* RSSNutView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5659B7A225BA3C90053AC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S7FD8USQFZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A5659B7B225BA3C90053AC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = S7FD8USQFZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A5659B7D225BA3C90053AC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S7FD8USQFZ;
+				INFOPLIST_FILE = RSSNut/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsolutions.RSSNut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSNut/RSSNut-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		A5659B7E225BA3C90053AC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S7FD8USQFZ;
+				INFOPLIST_FILE = RSSNut/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsolutions.RSSNut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSNut/RSSNut-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5659B6C225BA3C90053AC94 /* Build configuration list for PBXProject "RSSNut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5659B7A225BA3C90053AC94 /* Debug */,
+				A5659B7B225BA3C90053AC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5659B7C225BA3C90053AC94 /* Build configuration list for PBXNativeTarget "RSSNut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5659B7D225BA3C90053AC94 /* Debug */,
+				A5659B7E225BA3C90053AC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5659B69225BA3C90053AC94 /* Project object */;
+}
