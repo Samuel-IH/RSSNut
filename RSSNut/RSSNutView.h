@@ -8,9 +8,8 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 #import <QuartzCore/QuartzCore.h>
-#import "NS(Attributed)String+Geometrics.h"
-#import "ConfigurationController.h"
 #import "ConfigurationWindow.h"
+#import "ConfigurationController.h"
 typedef struct Point3D_ {
     CGFloat x, y, z;
 } Point3D;

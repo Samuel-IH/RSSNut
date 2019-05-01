@@ -333,18 +333,6 @@
     rect.size.width = ceil(rect.size.width);
     rect.size.height = ceil(rect.size.height);
     return rect.size;
-    
-    NSTextStorage *textStorage = [[NSTextStorage alloc]
-                                   initWithString:text];
-    NSTextContainer *textContainer = [[NSTextContainer alloc]
-                                       initWithContainerSize: NSMakeSize(myWidth, FLT_MAX)];
-    NSLayoutManager *layoutManager = [[NSLayoutManager alloc] init];
-    [layoutManager addTextContainer:textContainer];
-    [textStorage addLayoutManager:layoutManager];
-    [textStorage addAttributes:attr range:NSMakeRange(0, [textStorage length])];
-    [textContainer setLineFragmentPadding:0.0];
-    (void) [layoutManager glyphRangeForTextContainer:textContainer];
-    return [layoutManager usedRectForTextContainer:textContainer].size;
 }
 
 

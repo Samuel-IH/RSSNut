@@ -11,7 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ConfigurationController : NSWindowController
-- (IBAction)ooglaboogla:(id)sender;
 @end
 
 NS_ASSUME_NONNULL_END

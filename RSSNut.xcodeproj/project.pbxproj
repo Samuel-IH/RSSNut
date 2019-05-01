@@ -9,28 +9,24 @@
 /* Begin PBXBuildFile section */
 		A54E6D122263BA9100552801 /* ConfigurationWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = A54E6D102263BA9100552801 /* ConfigurationWindow.h */; };
 		A54E6D132263BA9100552801 /* ConfigurationWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A54E6D112263BA9100552801 /* ConfigurationWindow.m */; };
-		A55F3DC7225F963200CF336D /* NS(Attributed)String+Geometrics.h in Headers */ = {isa = PBXBuildFile; fileRef = A55F3DC5225F963200CF336D /* NS(Attributed)String+Geometrics.h */; };
-		A55F3DC8225F963200CF336D /* NS(Attributed)String+Geometrics.m in Sources */ = {isa = PBXBuildFile; fileRef = A55F3DC6225F963200CF336D /* NS(Attributed)String+Geometrics.m */; };
 		A5659B76225BA3C90053AC94 /* RSSNutView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5659B75225BA3C90053AC94 /* RSSNutView.h */; };
 		A5659B78225BA3C90053AC94 /* RSSNutView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5659B77225BA3C90053AC94 /* RSSNutView.m */; };
 		A58847C6225FBDB600870A16 /* TEMP.png in Resources */ = {isa = PBXBuildFile; fileRef = A58847C5225FBDB600870A16 /* TEMP.png */; };
-		A5E3D83C22614681008CCF16 /* ConfigurationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E3D83922614681008CCF16 /* ConfigurationController.h */; };
-		A5E3D83D22614681008CCF16 /* ConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3D83A22614681008CCF16 /* ConfigurationController.m */; };
+		A5AF98BF227A36E00066716C /* ConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AF98BD227A36E00066716C /* ConfigurationController.m */; };
+		A5AF98C0227A36E00066716C /* ConfigurationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AF98BE227A36E00066716C /* ConfigurationController.h */; };
 		A5E3D83E22614681008CCF16 /* ConfigurationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E3D83B22614681008CCF16 /* ConfigurationController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A54E6D102263BA9100552801 /* ConfigurationWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigurationWindow.h; sourceTree = "<group>"; };
 		A54E6D112263BA9100552801 /* ConfigurationWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigurationWindow.m; sourceTree = "<group>"; };
-		A55F3DC5225F963200CF336D /* NS(Attributed)String+Geometrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NS(Attributed)String+Geometrics.h"; sourceTree = "<group>"; };
-		A55F3DC6225F963200CF336D /* NS(Attributed)String+Geometrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NS(Attributed)String+Geometrics.m"; sourceTree = "<group>"; };
 		A5659B72225BA3C90053AC94 /* RSSNut.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSNut.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5659B75225BA3C90053AC94 /* RSSNutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSNutView.h; sourceTree = "<group>"; };
 		A5659B77225BA3C90053AC94 /* RSSNutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSNutView.m; sourceTree = "<group>"; };
 		A5659B79225BA3C90053AC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A58847C5225FBDB600870A16 /* TEMP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TEMP.png; sourceTree = "<group>"; };
-		A5E3D83922614681008CCF16 /* ConfigurationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigurationController.h; sourceTree = "<group>"; };
-		A5E3D83A22614681008CCF16 /* ConfigurationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigurationController.m; sourceTree = "<group>"; };
+		A5AF98BD227A36E00066716C /* ConfigurationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationController.m; sourceTree = "<group>"; };
+		A5AF98BE227A36E00066716C /* ConfigurationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationController.h; sourceTree = "<group>"; };
 		A5E3D83B22614681008CCF16 /* ConfigurationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigurationController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,19 +60,25 @@
 		A5659B74225BA3C90053AC94 /* RSSNut */ = {
 			isa = PBXGroup;
 			children = (
-				A55F3DC5225F963200CF336D /* NS(Attributed)String+Geometrics.h */,
-				A55F3DC6225F963200CF336D /* NS(Attributed)String+Geometrics.m */,
+				A5659B79225BA3C90053AC94 /* Info.plist */,
+				A5AF98C2227A37220066716C /* Configuration */,
 				A5659B75225BA3C90053AC94 /* RSSNutView.h */,
 				A5659B77225BA3C90053AC94 /* RSSNutView.m */,
 				A58847C5225FBDB600870A16 /* TEMP.png */,
-				A5659B79225BA3C90053AC94 /* Info.plist */,
-				A5E3D83922614681008CCF16 /* ConfigurationController.h */,
-				A5E3D83A22614681008CCF16 /* ConfigurationController.m */,
+			);
+			path = RSSNut;
+			sourceTree = "<group>";
+		};
+		A5AF98C2227A37220066716C /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
 				A54E6D102263BA9100552801 /* ConfigurationWindow.h */,
 				A54E6D112263BA9100552801 /* ConfigurationWindow.m */,
 				A5E3D83B22614681008CCF16 /* ConfigurationController.xib */,
+				A5AF98BE227A36E00066716C /* ConfigurationController.h */,
+				A5AF98BD227A36E00066716C /* ConfigurationController.m */,
 			);
-			path = RSSNut;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +88,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5E3D83C22614681008CCF16 /* ConfigurationController.h in Headers */,
+				A5AF98C0227A36E00066716C /* ConfigurationController.h in Headers */,
 				A5659B76225BA3C90053AC94 /* RSSNutView.h in Headers */,
-				A55F3DC7225F963200CF336D /* NS(Attributed)String+Geometrics.h in Headers */,
 				A54E6D122263BA9100552801 /* ConfigurationWindow.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,9 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AF98BF227A36E00066716C /* ConfigurationController.m in Sources */,
 				A54E6D132263BA9100552801 /* ConfigurationWindow.m in Sources */,
-				A5E3D83D22614681008CCF16 /* ConfigurationController.m in Sources */,
-				A55F3DC8225F963200CF336D /* NS(Attributed)String+Geometrics.m in Sources */,
 				A5659B78225BA3C90053AC94 /* RSSNutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
