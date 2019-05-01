@@ -13,7 +13,7 @@ This screensaver is meant to replace the above broken solutions.
 
 ## Installation:
 1) Download the screensaver [here](https://github.com/Samuel-IH/RSSNut/releases/latest)
-2) Extract the screensaver from the zip and open it. System Preferences will now install it.
+2) Extract the screensaver from the zip and open it. To open it you may have to control-click it and then click "open" to get past security settings. System Preferences will now install it.
 3) Select the screensaver in System Preferences and customize to your liking, You can change the read speed, theme color, and of course, the rss feed.
 
 ![alt text](https://github.com/Samuel-IH/RSSNut/raw/master/photo2.png "Configuration Example")
