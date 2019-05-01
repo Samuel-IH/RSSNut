@@ -1,5 +1,6 @@
 # RSSNut
 **MacOS Mojave RSS Screensaver**<br>
+I had recieved a personal request from a certain friend, to come up with a fix for the broken rss screensaver. After much googling and StackOverflow Browsing I was equipped with the tools to parse rss like a boss! I paired that up with my already existing xp on sceensaver building, and voila: RSSNut!
 
 ![alt text](https://github.com/Samuel-IH/RSSNut/raw/master/photo.png "Screensaver Sample")
 
