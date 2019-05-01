@@ -12,7 +12,7 @@ The following rss screensaver solutions have been broken in Mojave:<br>
 This screensaver is meant to replace the above broken solutions.
 
 ## Installation:
-1) Download the screensaver [here](https://github.com/Samuel-IH/RSSNut/raw/master/Release/RSSNut.saver.zip)
+1) Download the screensaver [here](https://github.com/Samuel-IH/RSSNut/releases/latest)
 2) Extract the screensaver from the zip and open it. System Preferences will now install it.
 3) Select the screensaver in System Preferences and customize to your liking, You can change the read speed, theme color, and of course, the rss feed.
 
