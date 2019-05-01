@@ -27,6 +27,7 @@
 		A58847C5225FBDB600870A16 /* TEMP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TEMP.png; sourceTree = "<group>"; };
 		A5AF98BD227A36E00066716C /* ConfigurationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationController.m; sourceTree = "<group>"; };
 		A5AF98BE227A36E00066716C /* ConfigurationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationController.h; sourceTree = "<group>"; };
+		A5AF98C5227A39000066716C /* RSSNut.saver.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = RSSNut.saver.zip; sourceTree = "<group>"; };
 		A5E3D83B22614681008CCF16 /* ConfigurationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigurationController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +45,7 @@
 		A5659B68225BA3C90053AC94 = {
 			isa = PBXGroup;
 			children = (
+				A5AF98C3227A38A00066716C /* Release */,
 				A5659B74225BA3C90053AC94 /* RSSNut */,
 				A5659B73225BA3C90053AC94 /* Products */,
 			);
@@ -79,6 +81,14 @@
 				A5AF98BD227A36E00066716C /* ConfigurationController.m */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		A5AF98C3227A38A00066716C /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				A5AF98C5227A39000066716C /* RSSNut.saver.zip */,
+			);
+			path = Release;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
