@@ -1,6 +1,6 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
+	archiveVersion = 1;/* Key commands no longer work in Catalina. A fix is highly unlikely seeing as how Apple removed key commands from their own WordOfTheDay screensaver */
 	classes = {
 	};
 	objectVersion = 50;
