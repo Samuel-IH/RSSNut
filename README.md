@@ -21,7 +21,7 @@ This screensaver is meant to replace the above broken solutions.
 
 "Title Flash" will set the read speed to extremely fast, just long enough that you can see the title and maybe a little bit more before the next feed is displayed.
 
-## Two Cool Features:
+## Two Cool Features: (Two Cool Features are currently broken in Catalina, so far I have not found a possible fix)
 When viewing a post that you would like to read more of, type "l" as in "link", to view it in your browser.
 
 To skip a boring post, type "n".
