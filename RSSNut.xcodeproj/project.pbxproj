@@ -1,12 +1,19 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;/* Key commands no longer work in Catalina. A fix is highly unlikely seeing as how Apple removed key commands from their own WordOfTheDay screensaver */
+	archiveVersion = 1;
 	classes = {
 	};
 	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441C86C1251550600097D0B8 /* ShellExecution.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C86C0251550600097D0B8 /* ShellExecution.m */; };
+		44E789F22515122000BA2462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E789F12515122000BA2462 /* AppDelegate.m */; };
+		44E789F42515122200BA2462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E789F32515122200BA2462 /* Assets.xcassets */; };
+		44E789F72515122200BA2462 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E789F52515122200BA2462 /* MainMenu.xib */; };
+		44E789FA2515122200BA2462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E789F92515122200BA2462 /* main.m */; };
+		44E789FF2515123200BA2462 /* RenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E789E525150D7700BA2462 /* RenderView.m */; };
+		44E78A032515200600BA2462 /* RenderWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E78A022515200600BA2462 /* RenderWindow.m */; };
 		A54E6D122263BA9100552801 /* ConfigurationWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = A54E6D102263BA9100552801 /* ConfigurationWindow.h */; };
 		A54E6D132263BA9100552801 /* ConfigurationWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A54E6D112263BA9100552801 /* ConfigurationWindow.m */; };
 		A5659B76225BA3C90053AC94 /* RSSNutView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5659B75225BA3C90053AC94 /* RSSNutView.h */; };
@@ -18,6 +25,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		441C86BF251550600097D0B8 /* ShellExecution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellExecution.h; sourceTree = "<group>"; };
+		441C86C0251550600097D0B8 /* ShellExecution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellExecution.m; sourceTree = "<group>"; };
+		44E789E425150D7700BA2462 /* RenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderView.h; sourceTree = "<group>"; };
+		44E789E525150D7700BA2462 /* RenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenderView.m; sourceTree = "<group>"; };
+		44E789EE2515122000BA2462 /* RSSNutPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSNutPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E789F02515122000BA2462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44E789F12515122000BA2462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44E789F32515122200BA2462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44E789F62515122200BA2462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		44E789F82515122200BA2462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E789F92515122200BA2462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44E789FB2515122200BA2462 /* RSSNutPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RSSNutPro.entitlements; sourceTree = "<group>"; };
+		44E78A012515200600BA2462 /* RenderWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderWindow.h; sourceTree = "<group>"; };
+		44E78A022515200600BA2462 /* RenderWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenderWindow.m; sourceTree = "<group>"; };
 		A54E6D102263BA9100552801 /* ConfigurationWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigurationWindow.h; sourceTree = "<group>"; };
 		A54E6D112263BA9100552801 /* ConfigurationWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigurationWindow.m; sourceTree = "<group>"; };
 		A5659B72225BA3C90053AC94 /* RSSNut.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSNut.saver; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		44E789EB2515122000BA2462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5659B6F225BA3C90053AC94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +69,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44E789EF2515122000BA2462 /* RSSNutPro */ = {
+			isa = PBXGroup;
+			children = (
+				44E789E425150D7700BA2462 /* RenderView.h */,
+				44E789E525150D7700BA2462 /* RenderView.m */,
+				44E78A012515200600BA2462 /* RenderWindow.h */,
+				44E78A022515200600BA2462 /* RenderWindow.m */,
+				44E789F02515122000BA2462 /* AppDelegate.h */,
+				44E789F12515122000BA2462 /* AppDelegate.m */,
+				441C86BF251550600097D0B8 /* ShellExecution.h */,
+				441C86C0251550600097D0B8 /* ShellExecution.m */,
+				44E789F32515122200BA2462 /* Assets.xcassets */,
+				44E789F52515122200BA2462 /* MainMenu.xib */,
+				44E789F82515122200BA2462 /* Info.plist */,
+				44E789F92515122200BA2462 /* main.m */,
+				44E789FB2515122200BA2462 /* RSSNutPro.entitlements */,
+			);
+			path = RSSNutPro;
+			sourceTree = "<group>";
+		};
 		A5659B68225BA3C90053AC94 = {
 			isa = PBXGroup;
 			children = (
 				A5659B74225BA3C90053AC94 /* RSSNut */,
+				44E789EF2515122000BA2462 /* RSSNutPro */,
 				A5659B73225BA3C90053AC94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				A5659B72225BA3C90053AC94 /* RSSNut.saver */,
+				44E789EE2515122000BA2462 /* RSSNutPro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +147,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		44E789ED2515122000BA2462 /* RSSNutPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E789FC2515122200BA2462 /* Build configuration list for PBXNativeTarget "RSSNutPro" */;
+			buildPhases = (
+				44E789EA2515122000BA2462 /* Sources */,
+				44E789EB2515122000BA2462 /* Frameworks */,
+				44E789EC2515122000BA2462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSNutPro;
+			productName = RSSNutPro;
+			productReference = 44E789EE2515122000BA2462 /* RSSNutPro.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A5659B71225BA3C90053AC94 /* RSSNut */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5659B7C225BA3C90053AC94 /* Build configuration list for PBXNativeTarget "RSSNut" */;
@@ -125,6 +192,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = 5amProductions;
 				TargetAttributes = {
+					44E789ED2515122000BA2462 = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					A5659B71225BA3C90053AC94 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
@@ -137,6 +207,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A5659B68225BA3C90053AC94;
 			productRefGroup = A5659B73225BA3C90053AC94 /* Products */;
@@ -144,11 +215,21 @@
 			projectRoot = "";
 			targets = (
 				A5659B71225BA3C90053AC94 /* RSSNut */,
+				44E789ED2515122000BA2462 /* RSSNutPro */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		44E789EC2515122000BA2462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E789F42515122200BA2462 /* Assets.xcassets in Resources */,
+				44E789F72515122200BA2462 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5659B70225BA3C90053AC94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,6 +262,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		44E789EA2515122000BA2462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E789FA2515122200BA2462 /* main.m in Sources */,
+				44E78A032515200600BA2462 /* RenderWindow.m in Sources */,
+				44E789F22515122000BA2462 /* AppDelegate.m in Sources */,
+				44E789FF2515123200BA2462 /* RenderView.m in Sources */,
+				441C86C1251550600097D0B8 /* ShellExecution.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5659B6E225BA3C90053AC94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,7 +286,58 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		44E789F52515122200BA2462 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E789F62515122200BA2462 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		44E789FD2515122200BA2462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RSSNutPro/RSSNutPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S7FD8USQFZ;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = RSSNutPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sam-solutions.RSSNutPro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44E789FE2515122200BA2462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RSSNutPro/RSSNutPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S7FD8USQFZ;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = RSSNutPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sam-solutions.RSSNutPro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A5659B7A225BA3C90053AC94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -359,6 +503,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		44E789FC2515122200BA2462 /* Build configuration list for PBXNativeTarget "RSSNutPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E789FD2515122200BA2462 /* Debug */,
+				44E789FE2515122200BA2462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A5659B6C225BA3C90053AC94 /* Build configuration list for PBXProject "RSSNut" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
