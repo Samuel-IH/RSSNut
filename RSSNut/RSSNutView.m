@@ -69,6 +69,9 @@
                 for (NSDictionary * dict in parsedData) {
                     NSArray * titleParts = [[dict valueForKey:@"title"] componentsSeparatedByString:@" "];
                     for (NSString * part in titleParts) {
+                        if ([headlineStuff count] > 100) {
+                            break;
+                        }
                         float scaled = arc4random_uniform(50) + 10;
                         [headlineStuff addObject:[[NSAttributedString alloc] initWithString:part attributes:@{NSForegroundColorAttributeName : [NSColor colorWithHue:hue saturation:1 brightness:1.0 alpha:0.5], NSFontAttributeName : [NSFont fontWithName:@"PT Mono" size:scaled]}]];
                         headlinePoints[ii] = Point3DMake(arc4random_uniform(frame.size.width), arc4random_uniform(frame.size.height), scaled);
@@ -273,10 +276,6 @@
     }
     
     
-    [md setValue:[NSFont fontWithName:@"PT Mono" size:18] forKey:NSFontAttributeName];
-    [md setValue:[NSColor colorWithWhite:1 alpha:1] forKey:NSForegroundColorAttributeName];
-    [@"Press the L key to read in your preferred browser." drawInRect:linkRect withAttributes:md];
-    [@"Press the N key to skip to the next." drawInRect:nextRect withAttributes:md];
     [[NSString stringWithFormat:@"%f", 1.0 / deltaTime] drawInRect:fpsRect withAttributes:@{NSForegroundColorAttributeName: NSColor.whiteColor}];
 }
 + (NSImage*) screenCacheImageForView:(NSView*)aView
@@ -308,16 +307,6 @@
         return [[f stringByReplacingOccurrencesOfString:@"w" withString:@""] floatValue] / 100 * self.bounds.size.width;
     } else {
         return [[f stringByReplacingOccurrencesOfString:@"h" withString:@""] floatValue] / 100 * self.bounds.size.height;
-    }
-}
-- (void)keyDown:(NSEvent *)event{
-    if (event.keyCode == 37) {//N
-        endDate = [NSDate new];
-    } else {
-        if (event.keyCode == 35) {//L
-            [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:(NSString*)[(NSDictionary*)(parsedData[currentIndex]) valueForKey:@"link"]]];
-        }
-        [super keyDown:event];
     }
 }
 
