@@ -107,13 +107,11 @@
     return true;
 }
 -(void)saveSettings {
-    NSLog(@"Button pressed!");
     [[NSApplication sharedApplication] endSheet:myGoodyWindow];
     
     //Do what You want here...
 }
 -(void)stopSettings {
-    NSLog(@"Button pressed!");
     [[NSApp keyWindow] endSheet:myGoodyWindow];
     
     //Do what You want here...
