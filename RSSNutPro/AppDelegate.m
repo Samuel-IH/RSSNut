@@ -22,6 +22,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     //Get to work! we need to frequently check if the screensaver has started
+    NSDictionary *options = @{(__bridge id) kAXTrustedCheckOptionPrompt : @YES};
+    //hey user! Trust us for accessibility, we need it to disable the native screensaver.
+    AXIsProcessTrustedWithOptions((__bridge CFDictionaryRef) options);
     [NSTimer scheduledTimerWithTimeInterval:0.5f target:self selector:@selector(testActivity:) userInfo:nil repeats:YES];
 }
 
@@ -36,6 +39,7 @@
     }
     //if the window is not nil, our screensaver is already up! (do nothing)
     if (self.window) {
+        [NSApp activateIgnoringOtherApps:YES];
         return;
     }
     
@@ -72,8 +76,15 @@
 }
 /// This will kill the running screensaver, and replace it with ours.
 - (void)killScreenSaver {
-    [@"killall ScreenSaverEngine" runAsCommand];
-    [NSApp activateIgnoringOtherApps:YES];
+
+    CGEventRef keyup, keydown;
+    keydown = CGEventCreateKeyboardEvent (NULL, (CGKeyCode)123, true);
+    keyup = CGEventCreateKeyboardEvent (NULL, (CGKeyCode)123, false);
+
+    CGEventPost(kCGHIDEventTap, keydown);
+    CGEventPost(kCGHIDEventTap, keyup);
+    CFRelease(keydown);
+    CFRelease(keyup);
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
