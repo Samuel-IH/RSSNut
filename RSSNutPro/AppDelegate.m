@@ -39,7 +39,6 @@
     }
     //if the window is not nil, our screensaver is already up! (do nothing)
     if (self.window) {
-        [NSApp activateIgnoringOtherApps:YES];
         return;
     }
     
@@ -71,6 +70,11 @@
         [NSCursor hide];
         NSLog(@"Coming to front");
         
+    } else {
+        if (self.window) {
+            //screensaver is gone, and we are active
+            [NSApp activateIgnoringOtherApps:YES];
+        }
     }
     
 }
